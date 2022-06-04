@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*letras*/
+@font-face {
+    font-family: 'droid';
+    src: url(../Desafio10/fontes/idroid.otf) format('opentype');
+}
+@font-face {
+    font-family:'padrao';
+    src: url(__MACOSX/fontes/aidroid.otf) format('opentype');
+}
+/*Corpo*/
+body{
+    font-family: 'padrao',Arial, Helvetica, sans-serif;
+    padding: 10;
+    background-color: #0bd204;
+}
+/*Cabeçalho*/
+header {
+    background-image: linear-gradient(to bottom, #0bd204,#09af03,darkgreen, rgb(1, 55, 1),black);
+    text-align: center;
+    color: white;
+    height: 150px;
+    top:0;
+    left: 0;
+    position: static;
+    width: 100%;
+    box-shadow: 3px 3px 5px #0000006c;
+    
+}
+/* barra de navegação*/
+header > nav {
+    background-color:  #013701;
+    text-align: justify;
+    position: static;
+    
+}
+/* animação barra de navegação*/
+header > nav > a:hover{
+background-color:#00b300;
+color: #015101;
+border-radius: 5px;
+padding-left: 5px;
+padding-right: 5px;
+}
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+/* Fim barra de navegação*/
+/* Parte principal*/
+main{
+    margin-top: 150.1px;
+    background-color: white;
+    padding: 20px;
+    width: 826px;
+    margin: auto;
+    box-shadow: 3px 3px 5px #0000006c;
+}
+
+/*Personalização dos textos*/
+h2,h3 {
+    font-family: 'droid';
+    color: #015101;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 2.5em;
+    background-image: linear-gradient(to right, #8aff8a,#a4ffa4,white);
+}
+p{
+    text-indent: 15px;
+}
+span {
+    color: #015101;
+    font-weight: bold;
+}
+div#video {
+    padding: 10px;
+    background-color: #013701;
+    
+}
+section#mais{
+    background-color: #67fd67;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #0000006c;
+}
+section#mais > h4 {
+    background-color: #00a700;
+    color: white;
+    position: relative;
+    height: 50px;
+    top: -31px;
+    left: -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+ul {
+ list-style-type: '✓';
+}
+ul > li > a {
+    color: black;
+}
+
+footer{
+    position: relative;
+    margin-top: 15px;
+    background-color: #013701;
+    padding: 10px;
+
+}
+div#bug {
+    position: relative;
+    left: 35%;
+    
+}

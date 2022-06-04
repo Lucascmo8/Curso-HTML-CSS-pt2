@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'mars';
+    src: url('../midias/fonte/Beyond\ Mars.otf') format('opentype')
+}
+
+body {
+    background-image: linear-gradient(to bottom, #c6f5fd, rgb(253, 210, 130));
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-indent: 20px;
+    font-size: 1.2em;
+    
+}
+/* Inicio do Texto*/
+h1#principal {
+    color: orange;
+    text-shadow: 1.5px 1.5px 3px blue;
+    font-size: 3em;
+}
+
+h2#cursos {
+    color: blue;
+    text-shadow: 1.5px 1.5px 9px orange;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'mars';
+
+}
+
+h3.basico {
+    color: blue;
+    font-size: 1.5em;
+}
+
+h3.intermediario {
+    color: orange;
+    font-size: 1.5em;
+}
+
+h3.avançado {
+    color: #425600;
+    font-size: 1.5em;
+}
+
+h2#preços { 
+    font-family: 'mars';
+    color:rgb(253, 0, 0);
+}
+/* Fim do texto*/
+
+/*Animação dos Preços*/
+div#preçoB:hover {
+    box-shadow: 10px 10px 15px #000063ae;
+    background-image: linear-gradient(to bottom, #c6f5c6 80%, blue);
+    color: #4545fd;
+    border-color: #4545fd;
+}
+
+div#preçoI:hover {
+    box-shadow: 10px 10px 15px rgba(144, 93, 0, 0.765);
+    background-image: linear-gradient(to bottom, #c6f5c6 80%, orange);
+    color: #ffbd43;
+    border-color: #ffbd43;
+}
+div#preçoA:hover {
+    box-shadow: 10px 10px 15px #4b591dd0;
+    background-image: linear-gradient(to bottom, #c6f5c6 80%, #425600);
+    color: #425600cd;
+    border-color: #5a7402cd;
+}
+/*Modelo do basico das div*/
+div { 
+    display: inline-block;
+    background-color: aquamarine;
+    border: 3px solid rgb(255, 0, 0);
+    text-align: center;
+    height: 100px;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: red;
+    font-family: 'mars';
+    margin-inline: 5px;
+}
+div#preçoB {
+    color: blue;
+    border-color: blue;
+}
+
+div#preçoI {
+    color: orange;
+    border-color: orange;
+}
+
+div#preçoA {
+    color: #425600;
+    border-color: #425600;
+}
+
+section#desconto {
+    margin: auto;  
+    margin-top: 25px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    height: auto;
+    width: 300px;
+    align-items: center;
+    padding: 4px;
+}
+ul#menu {
+    list-style-type: none;
+    text-align: justify;
+    padding-left: initial;
+
+}
+footer{ 
+    margin-top: 25px;
+    font-family: 'mars';
+    animation: infinite;
+}
+/*Efeito Rodapé*/
+footer > p { 
+    display: none;
+}
+
+footer:hover > p {
+    display: block ;
+    background-color: aquamarine;
+    height: 26px;
+    width: 200px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+a { text-decoration: none;
+}

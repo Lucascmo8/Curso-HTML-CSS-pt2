@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+    <link rel="shortcut icon" href="../midias/imagens/wolf.ico" type="image/x-icon">
+</head>
+<style>
+    body{ font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;}
+    header{
+        background-color: azure;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 8px 8px 10px #0000005b;
+    }
+    nav {
+        background-color: burlywood;
+        padding: 3px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px #0000005b;
+    }
+    nav > a {
+        text-decoration: none;
+        color: aquamarine;
+        margin-right: 30px;
+    }
+    nav > a:hover{ 
+        text-decoration: underline;
+        color: cadetblue;
+        font-weight: bolder;
+        text-shadow: 2px 2px 5px rgba(127, 255, 212, 0.753);
+    }
+    main{ background-color: azure;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 10px #0000005b;
+    }
+    article{
+        background-color: burlywood;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 4px 4px 8px #0000005b;
+    }
+    
+    section#bomdia{
+        background-color: burlywood;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 0px 10px;
+        box-shadow: 4px 4px 8px #0000005b;
+    }
+    aside {
+        background-color: black;
+        color: azure;
+        text-align: center;
+        border-radius: 5px;
+    }
+    footer{background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 8px 8px 10px #0000005b;
+}
+footer > p {
+    margin: 0px;
+}
+div#bola {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+    background-color: tomato;
+    border-radius: 50%;
+    text-align: center;
+}
+div#bola:hover{
+    background-color: aqua;
+    box-shadow: 8px 8px 10px #0000005b;
+}
+</style>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="box.html">voltar</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="bomdia">
+            <h2>bom dia</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum atque veniam consectetur. At odit nihil
+                officiis porro autem, molestias expedita fuga, repellendus recusandae voluptate minus dolor in ducimus
+                laboriosam consectetur!</p>
+        </section>
+        <section>
+            <article>
+                <h2>titulo h2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione possimus excepturi tenetur iste. Id
+                    eaque accusantium neque iusto rem? Incidunt excepturi nemo exercitationem voluptas dignissimos ut
+                    fuga, repellendus doloremque inventore.</p>
+                <aside>
+                    <p>Artigo feito por eu mesmo</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>by &copy; Lucas Costa</p>
+    </footer>
+    <a href="box.html">
+        <div id="bola"></div>
+    </a>
+</body>
+
+</html>

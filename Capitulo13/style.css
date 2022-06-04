@@ -1,0 +1,45 @@
+section#pri {
+    background-color: yellow;
+    color: red;
+}
+
+section#sec {
+    background-color: orange;
+    color: purple;
+}
+
+section#ter {
+    color: chartreuse;
+    background-color: orangered;
+}
+
+section#frias {
+    background-color: blue;
+    color: rgb(179, 77, 179);
+}
+section#quente {
+    background-color: red;
+    color:orange;
+}
+section#comp {
+    background-color: purple;
+    color: yellow;
+}
+section#analoga {
+    background-color: rgb(12, 156, 89);
+    color: blue;
+
+}
+body{
+    background-image: linear-gradient(to top, black, gray);
+    color:#daa520;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0 20px;
+    text-shadow: 0 0 5px #daa520;
+
+}
+section { border-radius: 10px;
+height: 120px;
+text-align: center;}
