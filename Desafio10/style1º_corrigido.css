@@ -53,6 +53,7 @@ header p {
     max-width: 500px;
     margin: auto;
     padding-top: 20px;
+    box-shadow: 3px 3px 5px #0000006c;
 }
 /* barra de navegação*/
 nav {
